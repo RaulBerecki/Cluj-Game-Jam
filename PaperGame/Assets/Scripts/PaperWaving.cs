@@ -1,29 +1,32 @@
 using UnityEngine;
+using System.Collections.Generic;
 using static UnityEditor.PlayerSettings;
 using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class PaperWaving : MonoBehaviour
 {
-    public Transform[] paperSegments; // Segments from top to bottom or left to right
-    public float waveSpeed = 2f;
-    public float waveAmplitude = 5f;
-    public float segmentOffset = 0.15f;
+    private List<Transform> paperSegments = new List<Transform>(); // Segments from top to bottom or left to right
+    private float waveSpeed = 3f;
+    private float waveAmplitude = 5f;
+    private float segmentOffset = 0.025f;
 
-    public float verticalAmplitude = 0.05f; // How much it moves up and down
-    private Vector3[] initialPositions;
+    private float verticalAmplitude = 0.125f; // How much it moves up and down
+    private List<Vector3> initialPositions = new List<Vector3>();
 
     void Start()
     {
-        // Store initial positions to offset correctly
-        initialPositions = new Vector3[paperSegments.Length];
-        for (int i = 0; i < paperSegments.Length; i++)
+        foreach(Transform child in gameObject.transform)
         {
-            initialPositions[i] = paperSegments[i].localPosition;
+            if(child.gameObject.name.Contains("PaperBit"))
+            {
+                paperSegments.Add(child);
+                initialPositions.Add(child.localPosition);
+            }
         }
     }
     void Update()
     {
-        for (int i = 0; i < paperSegments.Length; i++)
+        for (int i = 0; i < paperSegments.Count; i++)
         {
             float offset = i * segmentOffset;
             float wave = Mathf.Sin(Time.time * waveSpeed + offset);
