@@ -46,9 +46,10 @@ public class PlayerController : MonoBehaviour
     private void sendBall()
     {
         GameObject ball = GameObject.Instantiate(Resources.Load<GameObject>("PaperBit"), startPoint, Quaternion.identity);
+        ball.AddComponent<WindController>();
+        ball.AddComponent<Rigidbody2D>();
         ball.layer = LayerMask.NameToLayer("Default");
 
-        ball.AddComponent<Rigidbody2D>();
         Rigidbody2D rb = ball.GetComponent<Rigidbody2D>();
         rb.gravityScale = 0;
         rb.linearVelocity = (endPoint - startPoint) * 5.0f;        
