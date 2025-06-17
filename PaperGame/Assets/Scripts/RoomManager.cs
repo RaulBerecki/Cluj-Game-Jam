@@ -9,18 +9,23 @@ public class RoomManager : MonoBehaviour
     [SerializeField] private float roomDistances;
     [SerializeField] private float roomMovingSpeed;
     private Rigidbody2D rb;
+    public bool isPlaying;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         roomsCreated = new List<GameObject>();
         roomsCreated.Add(this.gameObject.transform.GetChild(0).gameObject);
+        isPlaying = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        rb.linearVelocity = new Vector2(-roomMovingSpeed, 0);
+        if (isPlaying)
+            rb.linearVelocity = new Vector2(-roomMovingSpeed, 0);
+        else
+            rb.linearVelocity = Vector2.zero;
         GenerateRandomRooms();
     }
     void GenerateRandomRooms()

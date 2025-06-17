@@ -3,6 +3,7 @@ using UnityEngine;
 public class InkManager : MonoBehaviour
 {
     private GameObject inkCartridgePrefab;
+    public bool isPlaying;
 
     private void Awake()
     {
@@ -11,12 +12,17 @@ public class InkManager : MonoBehaviour
 
     private void Start()
     {
+        isPlaying = false;
         InvokeRepeating(nameof(SpawnInkCartridge), 1.0f, 2.0f);
     }
 
     private void SpawnInkCartridge()
     {
-        float height = Random.Range(-2.0f, 2.5f);
-        GameObject.Instantiate(inkCartridgePrefab, new Vector2(-3.0f, height), Quaternion.identity);
+        if(isPlaying)
+        {
+            float height = Random.Range(-2.0f, 2.5f);
+            GameObject inkCartridge = GameObject.Instantiate(inkCartridgePrefab, new Vector2(5.0f, height), Quaternion.identity);
+            inkCartridge.GetComponent<InkCartridgeController>().inkManager=this;
+        }
     }
 }

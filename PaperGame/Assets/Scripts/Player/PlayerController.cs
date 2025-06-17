@@ -4,19 +4,57 @@ public class PlayerController : MonoBehaviour
 {
     private Vector2 startPoint;
     private Vector2 endPoint;
+    int swipes=0;
+    //DoubleClickVars
+    public float doubleClickThreshold = 0.3f; // Time window for double click
+    private float lastClickTime = 0f;
 
+    [SerializeField] private RoomManager roomManager;
+    [SerializeField] private UserInterfaceManager userInterfaceManager;
+    [SerializeField] private InkManager inkManager;
     void Update()
     {
+        CheckForDoubleClick();
         if(Input.GetMouseButtonDown(0))
         {
             OnClickStart();
         }
         if(Input.GetMouseButtonUp(0))
         {
+            if (swipes == 0)
+            {
+                roomManager.isPlaying = true;
+                inkManager.isPlaying = true;
+                userInterfaceManager.GameOn();
+                swipes++;
+            }
             OnClickEnd();
         }
     }
 
+    private void CheckForDoubleClick()
+    {
+        if (Input.GetMouseButtonDown(0)) // Left mouse button
+        {
+            if (Time.time - lastClickTime < doubleClickThreshold)
+            {
+                // Double click detected
+                if (roomManager.isPlaying)
+                {
+                    roomManager.isPlaying = false;
+                    inkManager.isPlaying = false;
+                    userInterfaceManager.GamePause();
+                }
+                else
+                {
+                    roomManager.isPlaying = true;
+                    inkManager.isPlaying = true;
+                    userInterfaceManager.GameOn();
+                }
+            }
+            lastClickTime = Time.time;
+        }
+    }
     private void OnClickStart()
     {
         startPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
