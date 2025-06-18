@@ -136,6 +136,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -372,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kids room_0: 4178898569654542599
+      kids room_1: -3509443882456934650
+      kids room_2: -5568539082265594896
+      kids room_3: -479024261332838069
+      kids room_4: 7515367558835287503
+      kids room_5: -1710579183814154510
+      kids room_6: 6004700416576352331
+      kids room_7: 5291350628229801879
+      kids room_8: 7015672630528510712
+      kids room_9: 7690815195308703328
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

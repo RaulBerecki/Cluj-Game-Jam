@@ -154,6 +154,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -522,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      living room_0: -383833888692993419
+      living room_1: -1186332795849947781
+      living room_10: -8507337064565154925
+      living room_11: 7451200993387287400
+      living room_12: -8490123703836001682
+      living room_13: -6733076112760399035
+      living room_14: 1332631921055697494
+      living room_15: -791890131610288458
+      living room_2: -8420268644949786007
+      living room_3: -879694266795679668
+      living room_4: -4546419466940013205
+      living room_5: 5526752536519402867
+      living room_6: -1675505603849056649
+      living room_7: -5006094760346341629
+      living room_8: -7439163136943830340
+      living room_9: 3619420014853399755
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
