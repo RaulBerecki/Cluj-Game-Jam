@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 217a07e15a86a894389f54522eba2fe2
+guid: db0305cea63893d49a03c9d57d147874
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3392885455431205278
-    second: wall1_0
+      213: 6997420814502191684
+    second: paper_airplane_outline_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wall1_0
+      name: paper_airplane_outline_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 154
-        height: 621
+        x: 60
+        y: 85
+        width: 370
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26efe6197ac0ae0d0800000000000000
-      internalID: -3392885455431205278
+      spriteID: 442e3582825db1160800000000000000
+      internalID: 6997420814502191684
       vertices: []
       indices: 
       edges: []

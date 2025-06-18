@@ -1,9 +1,39 @@
 fileFormatVersion: 2
-guid: 6d4fec089ec884f74be305297875453a
+guid: cc514488988d16044a4c9898a9f5030f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4178898569654542599
+    second: kids room_0
+  - first:
+      213: -3509443882456934650
+    second: kids room_1
+  - first:
+      213: -5568539082265594896
+    second: kids room_2
+  - first:
+      213: -479024261332838069
+    second: kids room_3
+  - first:
+      213: 7515367558835287503
+    second: kids room_4
+  - first:
+      213: -1710579183814154510
+    second: kids room_5
+  - first:
+      213: 6004700416576352331
+    second: kids room_6
+  - first:
+      213: 5291350628229801879
+    second: kids room_7
+  - first:
+      213: 7015672630528510712
+    second: kids room_8
+  - first:
+      213: 7690815195308703328
+    second: kids room_9
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +50,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,9 +94,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -75,9 +107,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -87,21 +120,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -111,30 +133,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -144,19 +143,20 @@ TextureImporter:
       name: kids room_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 593
-        width: 111
-        height: 131
+        x: 59
+        y: 592
+        width: 113
+        height: 133
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 199309abfc8094e3a90067c872e3094a
-      internalID: -521511017
+      spriteID: 701a5acbb1e6ef930800000000000000
+      internalID: 4178898569654542599
       vertices: []
       indices: 
       edges: []
@@ -165,19 +165,20 @@ TextureImporter:
       name: kids room_1
       rect:
         serializedVersion: 2
-        x: 248
-        y: 446
-        width: 295
-        height: 257
+        x: 247
+        y: 445
+        width: 297
+        height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b03b5cdfd1d7c4b4d8dd40c0c4ac71e3
-      internalID: -1566779657
+      spriteID: 6079cfaf163fb4fc0800000000000000
+      internalID: -3509443882456934650
       vertices: []
       indices: 
       edges: []
@@ -186,19 +187,20 @@ TextureImporter:
       name: kids room_2
       rect:
         serializedVersion: 2
-        x: 613
-        y: 641
-        width: 312
-        height: 62
+        x: 612
+        y: 640
+        width: 314
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a18b7460513e2421683ade07d782e8a7
-      internalID: 838498564
+      spriteID: 0f3fda3453398b2b0800000000000000
+      internalID: -5568539082265594896
       vertices: []
       indices: 
       edges: []
@@ -207,19 +209,20 @@ TextureImporter:
       name: kids room_3
       rect:
         serializedVersion: 2
-        x: 112
-        y: 556
-        width: 79
-        height: 19
+        x: 111
+        y: 555
+        width: 81
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 82fc5018ef7684dc6a60f2cdb25588f1
-      internalID: 844038867
+      spriteID: b495678e8f92a59f0800000000000000
+      internalID: -479024261332838069
       vertices: []
       indices: 
       edges: []
@@ -228,19 +231,20 @@ TextureImporter:
       name: kids room_4
       rect:
         serializedVersion: 2
-        x: 613
-        y: 562
-        width: 312
-        height: 74
+        x: 612
+        y: 561
+        width: 314
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5962eb7ac6a2549e9a4d45f036e3e22d
-      internalID: -223464493
+      spriteID: fc53fd40af2fb4860800000000000000
+      internalID: 7515367558835287503
       vertices: []
       indices: 
       edges: []
@@ -249,19 +253,20 @@ TextureImporter:
       name: kids room_5
       rect:
         serializedVersion: 2
-        x: 67
-        y: 400
-        width: 145
-        height: 143
+        x: 66
+        y: 399
+        width: 147
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 30a82d2897c6d44a4a858e449c545e7d
-      internalID: -899113549
+      spriteID: 2f6649c9b4dc248e0800000000000000
+      internalID: -1710579183814154510
       vertices: []
       indices: 
       edges: []
@@ -270,19 +275,20 @@ TextureImporter:
       name: kids room_6
       rect:
         serializedVersion: 2
-        x: 657
-        y: 123
-        width: 147
-        height: 392
+        x: 656
+        y: 122
+        width: 149
+        height: 394
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a36bfdaa4be1a4ce4923bab902769b6d
-      internalID: -1830668174
+      spriteID: b407ca0f63bf45350800000000000000
+      internalID: 6004700416576352331
       vertices: []
       indices: 
       edges: []
@@ -291,19 +297,20 @@ TextureImporter:
       name: kids room_7
       rect:
         serializedVersion: 2
-        x: 85
-        y: 282
-        width: 129
-        height: 97
+        x: 84
+        y: 281
+        width: 131
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9d3ecbd8f4ce64f06b72c4fd14526a60
-      internalID: -1424906203
+      spriteID: 7976da19c57ae6940800000000000000
+      internalID: 5291350628229801879
       vertices: []
       indices: 
       edges: []
@@ -312,19 +319,20 @@ TextureImporter:
       name: kids room_8
       rect:
         serializedVersion: 2
-        x: 330
-        y: 98
-        width: 247
-        height: 258
+        x: 329
+        y: 97
+        width: 249
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d678d273a7504415e94cb7e8c04730b0
-      internalID: 828310201
+      spriteID: 8fa051b361dac5160800000000000000
+      internalID: 7015672630528510712
       vertices: []
       indices: 
       edges: []
@@ -333,54 +341,40 @@ TextureImporter:
       name: kids room_9
       rect:
         serializedVersion: 2
-        x: 46
-        y: 23
-        width: 216
-        height: 222
+        x: 45
+        y: 22
+        width: 218
+        height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 611d1ab6200c94661a56bccbea24af08
-      internalID: -126599609
+      spriteID: 06e3d852ca34bba60800000000000000
+      internalID: 7690815195308703328
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      kids room_5: -899113549
-      kids room_3: 844038867
-      kids room_8: 828310201
-      kids room_4: -223464493
-      kids room_1: -1566779657
-      kids room_7: -1424906203
-      kids room_2: 838498564
-      kids room_0: -521511017
-      kids room_6: -1830668174
-      kids room_9: -126599609
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 277321
-  packageName: Modern 2D Platformer Interior Furniture
-  packageVersion: 1.1
-  assetPath: Assets/CatumetGames/Modern Furniture/Images/kids room.png
-  uploadId: 653078
