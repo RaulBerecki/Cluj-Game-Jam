@@ -1,9 +1,78 @@
 fileFormatVersion: 2
-guid: b42e45daf30ff456f8903f7324b48619
+guid: d780d9ac340d9fe46845e0d59d676fac
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4726522335782357095
+    second: office_0
+  - first:
+      213: -2063119410429711812
+    second: office_1
+  - first:
+      213: 3241429223417838038
+    second: office_2
+  - first:
+      213: 32504679054095329
+    second: office_3
+  - first:
+      213: 7116133925296819680
+    second: office_4
+  - first:
+      213: 1460095345990884287
+    second: office_5
+  - first:
+      213: 1362712644197807595
+    second: office_6
+  - first:
+      213: -7664057763647390325
+    second: office_7
+  - first:
+      213: -7921349510803149561
+    second: office_8
+  - first:
+      213: -6911096837670808554
+    second: office_9
+  - first:
+      213: -2804444419145914996
+    second: office_10
+  - first:
+      213: 5733635913342364750
+    second: office_11
+  - first:
+      213: 6616607262994995029
+    second: office_12
+  - first:
+      213: -103504888457580276
+    second: office_13
+  - first:
+      213: 8625065222492617249
+    second: office_14
+  - first:
+      213: 5557665860244518938
+    second: office_15
+  - first:
+      213: 8671946129384003003
+    second: office_16
+  - first:
+      213: -7658336873572344305
+    second: office_17
+  - first:
+      213: -4371945473481396426
+    second: office_18
+  - first:
+      213: -3459357862093026732
+    second: office_19
+  - first:
+      213: -3351099965701029289
+    second: office_20
+  - first:
+      213: 5924335676118081595
+    second: office_21
+  - first:
+      213: -3970648305846796810
+    second: office_22
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +89,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,9 +133,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -75,9 +146,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -87,21 +159,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -111,30 +172,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -144,19 +182,20 @@ TextureImporter:
       name: office_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 866
-        width: 113
-        height: 80
+        x: 45
+        y: 865
+        width: 115
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3dd585f62d32c410aa2948e6f4e5cfaa
-      internalID: 2065789376
+      spriteID: 768c14fa50bf79140800000000000000
+      internalID: 4726522335782357095
       vertices: []
       indices: 
       edges: []
@@ -165,19 +204,20 @@ TextureImporter:
       name: office_1
       rect:
         serializedVersion: 2
-        x: 208
-        y: 842
-        width: 114
-        height: 114
+        x: 207
+        y: 841
+        width: 116
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 34faeafd2f66646e681dfef2f1a86495
-      internalID: 847038132
+      spriteID: c3aaf1cb3d35e53e0800000000000000
+      internalID: -2063119410429711812
       vertices: []
       indices: 
       edges: []
@@ -186,19 +226,20 @@ TextureImporter:
       name: office_2
       rect:
         serializedVersion: 2
-        x: 343
-        y: 766
-        width: 230
-        height: 188
+        x: 342
+        y: 765
+        width: 232
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cc68607a6bc1349dda00785c140863c9
-      internalID: -11672894
+      spriteID: 6d9f36274bedbfc20800000000000000
+      internalID: 3241429223417838038
       vertices: []
       indices: 
       edges: []
@@ -207,19 +248,20 @@ TextureImporter:
       name: office_3
       rect:
         serializedVersion: 2
-        x: 589
-        y: 863
-        width: 87
-        height: 82
+        x: 588
+        y: 862
+        width: 89
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 536794925820f492486b879584b30ea3
-      internalID: 1926445160
+      spriteID: 1e3be8855da737000800000000000000
+      internalID: 32504679054095329
       vertices: []
       indices: 
       edges: []
@@ -228,19 +270,20 @@ TextureImporter:
       name: office_4
       rect:
         serializedVersion: 2
-        x: 736
-        y: 748
-        width: 148
-        height: 209
+        x: 735
+        y: 747
+        width: 150
+        height: 211
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3a97b5054a60b45f889693345f306c7f
-      internalID: 1663857590
+      spriteID: 0ed4c672a1691c260800000000000000
+      internalID: 7116133925296819680
       vertices: []
       indices: 
       edges: []
@@ -249,19 +292,20 @@ TextureImporter:
       name: office_5
       rect:
         serializedVersion: 2
-        x: 39
-        y: 569
-        width: 141
-        height: 277
+        x: 38
+        y: 568
+        width: 143
+        height: 279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0aa270e5bb2194d10803616a0d799a2a
-      internalID: 605304323
+      spriteID: fbbdcf33bfc434410800000000000000
+      internalID: 1460095345990884287
       vertices: []
       indices: 
       edges: []
@@ -270,19 +314,20 @@ TextureImporter:
       name: office_6
       rect:
         serializedVersion: 2
-        x: 208
-        y: 699
-        width: 43
-        height: 98
+        x: 207
+        y: 698
+        width: 45
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0d30de9f4ff1a4b23b1867765ea2b086
-      internalID: -970223586
+      spriteID: be5f7501ee359e210800000000000000
+      internalID: 1362712644197807595
       vertices: []
       indices: 
       edges: []
@@ -291,19 +336,20 @@ TextureImporter:
       name: office_7
       rect:
         serializedVersion: 2
-        x: 262
-        y: 699
-        width: 43
-        height: 98
+        x: 261
+        y: 698
+        width: 45
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 43012baa3738b4230851a561bf81eae7
-      internalID: 364962196
+      spriteID: b8df8b3e11cc3a590800000000000000
+      internalID: -7664057763647390325
       vertices: []
       indices: 
       edges: []
@@ -312,19 +358,20 @@ TextureImporter:
       name: office_8
       rect:
         serializedVersion: 2
-        x: 611
-        y: 758
-        width: 49
-        height: 56
+        x: 610
+        y: 757
+        width: 51
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 84cf1a3ebae31491d8150ee49a4b0b33
-      internalID: -852659829
+      spriteID: 70d2ddac696b11290800000000000000
+      internalID: -7921349510803149561
       vertices: []
       indices: 
       edges: []
@@ -333,19 +380,20 @@ TextureImporter:
       name: office_9
       rect:
         serializedVersion: 2
-        x: 342
-        y: 543
-        width: 389
-        height: 178
+        x: 57
+        y: 461
+        width: 24
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 79c5add66e46d468d80d4dd27b5d7f9e
-      internalID: 1347441571
+      spriteID: 6145e4eea0ad610a0800000000000000
+      internalID: -6911096837670808554
       vertices: []
       indices: 
       edges: []
@@ -354,19 +402,20 @@ TextureImporter:
       name: office_10
       rect:
         serializedVersion: 2
-        x: 764
-        y: 460
-        width: 169
-        height: 248
+        x: 80
+        y: 461
+        width: 25
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b1fe3d19ace474a33b97d07ceff19305
-      internalID: 2111931460
+      spriteID: c852b7cc8ac9419d0800000000000000
+      internalID: -2804444419145914996
       vertices: []
       indices: 
       edges: []
@@ -375,19 +424,20 @@ TextureImporter:
       name: office_11
       rect:
         serializedVersion: 2
-        x: 58
-        y: 462
-        width: 22
-        height: 79
+        x: 104
+        y: 461
+        width: 24
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d70210f3295d2415c8a5d5a91da1e719
-      internalID: 663294646
+      spriteID: e4ca13e2c77f19f40800000000000000
+      internalID: 5733635913342364750
       vertices: []
       indices: 
       edges: []
@@ -396,19 +446,20 @@ TextureImporter:
       name: office_12
       rect:
         serializedVersion: 2
-        x: 81
-        y: 462
-        width: 23
-        height: 79
+        x: 128
+        y: 461
+        width: 24
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e9f09fee358994264bc0237d82899acf
-      internalID: 327968649
+      spriteID: 5571619df39e2db50800000000000000
+      internalID: 6616607262994995029
       vertices: []
       indices: 
       edges: []
@@ -417,19 +468,20 @@ TextureImporter:
       name: office_13
       rect:
         serializedVersion: 2
-        x: 105
-        y: 462
-        width: 22
-        height: 79
+        x: 151
+        y: 461
+        width: 25
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 878de794c45c34c3088d04bf843eafc1
-      internalID: -248749124
+      spriteID: c0138f23ad6409ef0800000000000000
+      internalID: -103504888457580276
       vertices: []
       indices: 
       edges: []
@@ -438,19 +490,20 @@ TextureImporter:
       name: office_14
       rect:
         serializedVersion: 2
-        x: 129
-        y: 462
-        width: 22
-        height: 79
+        x: 341
+        y: 542
+        width: 391
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 398d18faa791c4ef1be4107ac7e6d01c
-      internalID: 1564653892
+      spriteID: 12a7f3f4f1362b770800000000000000
+      internalID: 8625065222492617249
       vertices: []
       indices: 
       edges: []
@@ -459,19 +512,20 @@ TextureImporter:
       name: office_15
       rect:
         serializedVersion: 2
-        x: 152
-        y: 462
-        width: 23
-        height: 79
+        x: 763
+        y: 459
+        width: 171
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a195da3b61f9b49a3a2ef56b51fca7e2
-      internalID: -224139906
+      spriteID: a18b03477abc02d40800000000000000
+      internalID: 5557665860244518938
       vertices: []
       indices: 
       edges: []
@@ -480,19 +534,20 @@ TextureImporter:
       name: office_16
       rect:
         serializedVersion: 2
-        x: 305
-        y: 177
-        width: 216
-        height: 330
+        x: 43
+        y: 54
+        width: 241
+        height: 389
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: eadb7f8cda58443d2a0a0642870044ce
-      internalID: 1588301185
+      spriteID: bb5d1490f01f85870800000000000000
+      internalID: 8671946129384003003
       vertices: []
       indices: 
       edges: []
@@ -501,19 +556,20 @@ TextureImporter:
       name: office_17
       rect:
         serializedVersion: 2
-        x: 44
-        y: 55
-        width: 239
-        height: 387
+        x: 304
+        y: 176
+        width: 218
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4e185af0ddc5546709e4289d2a95ab64
-      internalID: -1520834237
+      spriteID: f0ed178603f18b590800000000000000
+      internalID: -7658336873572344305
       vertices: []
       indices: 
       edges: []
@@ -522,19 +578,20 @@ TextureImporter:
       name: office_18
       rect:
         serializedVersion: 2
-        x: 559
-        y: 205
-        width: 77
-        height: 178
+        x: 558
+        y: 204
+        width: 79
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 804289c2ed8d840d99e169e265e8b7be
-      internalID: 974745773
+      spriteID: 63fa3c361cab353c0800000000000000
+      internalID: -4371945473481396426
       vertices: []
       indices: 
       edges: []
@@ -543,19 +600,20 @@ TextureImporter:
       name: office_19
       rect:
         serializedVersion: 2
-        x: 656
-        y: 207
-        width: 111
-        height: 136
+        x: 655
+        y: 206
+        width: 113
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ae20f37cf9c8e424c919f72e7c7ed409
-      internalID: 717956294
+      spriteID: 45a8df65a54edffc0800000000000000
+      internalID: -3459357862093026732
       vertices: []
       indices: 
       edges: []
@@ -564,19 +622,20 @@ TextureImporter:
       name: office_20
       rect:
         serializedVersion: 2
-        x: 816
-        y: 202
-        width: 132
-        height: 161
+        x: 815
+        y: 201
+        width: 134
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a1b1d515cb664472d9f89b333951c9e3
-      internalID: 456220956
+      spriteID: 752019906508e71d0800000000000000
+      internalID: -3351099965701029289
       vertices: []
       indices: 
       edges: []
@@ -585,19 +644,20 @@ TextureImporter:
       name: office_21
       rect:
         serializedVersion: 2
-        x: 597
-        y: 96
-        width: 363
-        height: 72
+        x: 596
+        y: 95
+        width: 365
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 06cf7d157c58e4c4a9df8d6c2590aaf6
-      internalID: -1259440705
+      spriteID: b302131b8e7773250800000000000000
+      internalID: 5924335676118081595
       vertices: []
       indices: 
       edges: []
@@ -606,67 +666,40 @@ TextureImporter:
       name: office_22
       rect:
         serializedVersion: 2
-        x: 597
-        y: 29
-        width: 363
-        height: 54
+        x: 596
+        y: 28
+        width: 365
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9a11767f54def4a6cbb467223205f643
-      internalID: -1878949985
+      spriteID: 6fdbef9376c65e8c0800000000000000
+      internalID: -3970648305846796810
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      office_8: -852659829
-      office_13: -248749124
-      office_14: 1564653892
-      office_19: 717956294
-      office_0: 2065789376
-      office_16: 1588301185
-      office_10: 2111931460
-      office_1: 847038132
-      office_22: -1878949985
-      office_5: 605304323
-      office_7: 364962196
-      office_12: 327968649
-      office_17: -1520834237
-      office_15: -224139906
-      office_6: -970223586
-      office_2: -11672894
-      office_3: 1926445160
-      office_9: 1347441571
-      office_11: 663294646
-      office_4: 1663857590
-      office_21: -1259440705
-      office_20: 456220956
-      office_18: 974745773
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 277321
-  packageName: Modern 2D Platformer Interior Furniture
-  packageVersion: 1.1
-  assetPath: Assets/CatumetGames/Modern Furniture/Images/office.png
-  uploadId: 653078

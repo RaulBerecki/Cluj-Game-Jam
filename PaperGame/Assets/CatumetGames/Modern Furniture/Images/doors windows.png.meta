@@ -1,9 +1,36 @@
 fileFormatVersion: 2
-guid: fed226d5f2a1d4da594d6f5795805044
+guid: dcbb2d411944c8e4bb27822c908f7d91
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8591268229406894152
+    second: doors windows_0
+  - first:
+      213: 6864411709316717649
+    second: doors windows_1
+  - first:
+      213: 5140330657630316267
+    second: doors windows_2
+  - first:
+      213: -265871714332798492
+    second: doors windows_3
+  - first:
+      213: -5012017716992720120
+    second: doors windows_4
+  - first:
+      213: 2753389929650383516
+    second: doors windows_5
+  - first:
+      213: 6925296937780335787
+    second: doors windows_6
+  - first:
+      213: 5314565580967000086
+    second: doors windows_7
+  - first:
+      213: -1485514402976771752
+    second: doors windows_8
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +47,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,9 +91,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -75,9 +104,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -87,21 +117,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -111,30 +130,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -144,19 +140,20 @@ TextureImporter:
       name: doors windows_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 734
-        width: 154
-        height: 315
+        x: 2
+        y: 733
+        width: 156
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: feb4df47d9ae94945a9847627fc9da58
-      internalID: -367065648
+      spriteID: 8b75a18501fa5c880800000000000000
+      internalID: -8591268229406894152
       vertices: []
       indices: 
       edges: []
@@ -165,19 +162,20 @@ TextureImporter:
       name: doors windows_1
       rect:
         serializedVersion: 2
-        x: 167
-        y: 734
-        width: 224
-        height: 265
+        x: 166
+        y: 733
+        width: 226
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 29eca7cb7777846dda2cf1f19e026a02
-      internalID: 515132333
+      spriteID: 15cdad5941a434f50800000000000000
+      internalID: 6864411709316717649
       vertices: []
       indices: 
       edges: []
@@ -186,19 +184,20 @@ TextureImporter:
       name: doors windows_2
       rect:
         serializedVersion: 2
-        x: 398
-        y: 734
-        width: 311
-        height: 304
+        x: 397
+        y: 733
+        width: 313
+        height: 306
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2ac3fb9eebf5b482693d3c7d38082e6b
-      internalID: 1535172409
+      spriteID: be6ea1c9f7f165740800000000000000
+      internalID: 5140330657630316267
       vertices: []
       indices: 
       edges: []
@@ -207,19 +206,20 @@ TextureImporter:
       name: doors windows_3
       rect:
         serializedVersion: 2
-        x: 718
-        y: 734
-        width: 240
-        height: 293
+        x: 717
+        y: 733
+        width: 241
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1e653d072f38b4ce189306cd47f5a713
-      internalID: -1439448802
+      spriteID: 4e19e5f951f6f4cf0800000000000000
+      internalID: -265871714332798492
       vertices: []
       indices: 
       edges: []
@@ -229,18 +229,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 442
-        width: 184
-        height: 279
+        y: 441
+        width: 185
+        height: 281
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 593be73543fc0484ea66c36d2a29a04a
-      internalID: 1492599713
+      spriteID: 8034fa2f07cb17ab0800000000000000
+      internalID: -5012017716992720120
       vertices: []
       indices: 
       edges: []
@@ -249,19 +250,20 @@ TextureImporter:
       name: doors windows_5
       rect:
         serializedVersion: 2
-        x: 718
+        x: 717
         y: 0
-        width: 239
-        height: 444
+        width: 241
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e016a023502a3434880f37c32319516a
-      internalID: 758161441
+      spriteID: c9ae2fc8d81063620800000000000000
+      internalID: 2753389929650383516
       vertices: []
       indices: 
       edges: []
@@ -270,19 +272,20 @@ TextureImporter:
       name: doors windows_6
       rect:
         serializedVersion: 2
-        x: 6
+        x: 5
         y: 0
-        width: 203
-        height: 417
+        width: 205
+        height: 418
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 33d0b79732c0a49a2ad3cff6da1cbf38
-      internalID: -1003143197
+      spriteID: ba45f748fd89b1060800000000000000
+      internalID: 6925296937780335787
       vertices: []
       indices: 
       edges: []
@@ -291,19 +294,20 @@ TextureImporter:
       name: doors windows_7
       rect:
         serializedVersion: 2
-        x: 229
+        x: 228
         y: 0
-        width: 236
-        height: 438
+        width: 238
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b3fb64862698f41dfb8b0b4ec81accb3
-      internalID: -1436271102
+      spriteID: 6183e05fc3121c940800000000000000
+      internalID: 5314565580967000086
       vertices: []
       indices: 
       edges: []
@@ -312,53 +316,40 @@ TextureImporter:
       name: doors windows_8
       rect:
         serializedVersion: 2
-        x: 486
+        x: 485
         y: 0
-        width: 218
-        height: 411
+        width: 220
+        height: 412
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1197706f79e8240eab3e0d4be0fee0f3
-      internalID: -241811818
+      spriteID: 851d7d56584626be0800000000000000
+      internalID: -1485514402976771752
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      doors windows_1: 515132333
-      doors windows_5: 758161441
-      doors windows_2: 1535172409
-      doors windows_4: 1492599713
-      doors windows_7: -1436271102
-      doors windows_3: -1439448802
-      doors windows_6: -1003143197
-      doors windows_0: -367065648
-      doors windows_8: -241811818
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 277321
-  packageName: Modern 2D Platformer Interior Furniture
-  packageVersion: 1.1
-  assetPath: Assets/CatumetGames/Modern Furniture/Images/doors windows.png
-  uploadId: 653078

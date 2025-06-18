@@ -1,9 +1,30 @@
 fileFormatVersion: 2
-guid: 64edf884697804ebd8851eb3261ad8e2
+guid: 2b273d851e685634b8dc2dfed1f62f65
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8197047826604361390
+    second: bedroom_0
+  - first:
+      213: 4736947123705276130
+    second: bedroom_1
+  - first:
+      213: 2025611399618296760
+    second: bedroom_2
+  - first:
+      213: -1546319696498959925
+    second: bedroom_3
+  - first:
+      213: 8859468537177252224
+    second: bedroom_4
+  - first:
+      213: -5768650751410032934
+    second: bedroom_5
+  - first:
+      213: 4930428974814493766
+    second: bedroom_6
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +41,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,9 +85,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -75,9 +98,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -87,21 +111,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -111,30 +124,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -144,19 +134,20 @@ TextureImporter:
       name: bedroom_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 671
-        width: 205
-        height: 142
+        x: 45
+        y: 670
+        width: 207
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 26d659d9ccc48428899574eed51d1e19
-      internalID: 1718913459
+      spriteID: ea604a78193c1c170800000000000000
+      internalID: 8197047826604361390
       vertices: []
       indices: 
       edges: []
@@ -165,19 +156,20 @@ TextureImporter:
       name: bedroom_1
       rect:
         serializedVersion: 2
-        x: 300
-        y: 676
-        width: 105
-        height: 119
+        x: 299
+        y: 675
+        width: 107
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 87b760e111ef64be58b7c269faa7bb29
-      internalID: -570335713
+      spriteID: 2e6e244cf440db140800000000000000
+      internalID: 4736947123705276130
       vertices: []
       indices: 
       edges: []
@@ -186,19 +178,20 @@ TextureImporter:
       name: bedroom_2
       rect:
         serializedVersion: 2
-        x: 439
-        y: 675
-        width: 96
-        height: 130
+        x: 438
+        y: 674
+        width: 98
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 97f827f7d36e04e49a1d84e56bec5348
-      internalID: 256453355
+      spriteID: 8bbfa37f5da6c1c10800000000000000
+      internalID: 2025611399618296760
       vertices: []
       indices: 
       edges: []
@@ -207,19 +200,20 @@ TextureImporter:
       name: bedroom_3
       rect:
         serializedVersion: 2
-        x: 631
-        y: 393
-        width: 310
-        height: 439
+        x: 630
+        y: 392
+        width: 312
+        height: 441
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c78714459e96e46e5b359ad7b170b6dc
-      internalID: 1776116319
+      spriteID: bc95df4cd6e5a8ae0800000000000000
+      internalID: -1546319696498959925
       vertices: []
       indices: 
       edges: []
@@ -228,19 +222,20 @@ TextureImporter:
       name: bedroom_4
       rect:
         serializedVersion: 2
-        x: 13
-        y: 335
-        width: 481
-        height: 289
+        x: 12
+        y: 334
+        width: 483
+        height: 291
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ce235660acd0b4b3f9a0dad39bf0c807
-      internalID: -1845200492
+      spriteID: 0812331f1b723fa70800000000000000
+      internalID: 8859468537177252224
       vertices: []
       indices: 
       edges: []
@@ -249,19 +244,20 @@ TextureImporter:
       name: bedroom_5
       rect:
         serializedVersion: 2
-        x: 662
-        y: 156
-        width: 145
-        height: 200
+        x: 661
+        y: 155
+        width: 147
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 980c9fc78a42d4e18bdfcd1aab9fbf83
-      internalID: -844498633
+      spriteID: ade2ae884b2a1ffa0800000000000000
+      internalID: -5768650751410032934
       vertices: []
       indices: 
       edges: []
@@ -270,51 +266,40 @@ TextureImporter:
       name: bedroom_6
       rect:
         serializedVersion: 2
-        x: 17
-        y: 36
-        width: 473
-        height: 253
+        x: 16
+        y: 35
+        width: 475
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cfc1651bb049d4a888b5de8c3bf5545a
-      internalID: 998694340
+      spriteID: 64c7c12b7076c6440800000000000000
+      internalID: 4930428974814493766
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      bedroom_5: -844498633
-      bedroom_0: 1718913459
-      bedroom_2: 256453355
-      bedroom_3: 1776116319
-      bedroom_4: -1845200492
-      bedroom_6: 998694340
-      bedroom_1: -570335713
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 277321
-  packageName: Modern 2D Platformer Interior Furniture
-  packageVersion: 1.1
-  assetPath: Assets/CatumetGames/Modern Furniture/Images/bedroom.png
-  uploadId: 653078

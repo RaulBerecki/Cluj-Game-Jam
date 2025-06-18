@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     private Vector2 startPoint;
     private Vector2 endPoint;
-    int swipes=0;
+    int swipes = 0;
     //DoubleClickVars
     public float doubleClickThreshold = 0.3f; // Time window for double click
     private float lastClickTime = 0f;
@@ -15,17 +15,26 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         CheckForDoubleClick();
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             OnClickStart();
         }
-        if(Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0))
         {
             if (swipes == 0)
             {
-                roomManager.isPlaying = true;
-                inkManager.isPlaying = true;
-                userInterfaceManager.GameOn();
+                if(null != roomManager)
+                {
+                    roomManager.isPlaying = true;
+                }
+                if(null != inkManager)
+                {
+                    inkManager.isPlaying = true;
+                }
+                if(null != userInterfaceManager)
+                {
+                    userInterfaceManager.GameOn();
+                }
                 swipes++;
             }
             OnClickEnd();
@@ -63,33 +72,47 @@ public class PlayerController : MonoBehaviour
     private void OnClickEnd()
     {
         endPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        Vector2 direction = endPoint - startPoint;
-        RaycastHit2D hit = Physics2D.Raycast(startPoint, direction);
-
-        if(hit.collider != null)
-        {
-            GameObject hitObject = hit.collider.gameObject;
-            string layerName = LayerMask.LayerToName(hitObject.layer);
-
-            if ("Paper" == layerName)
-            {
-                sendBall();
-                //Debug.DrawRay(startPoint, direction.normalized * 5f, Color.red, 1f);
-                //hitObject.transform.parent.GetComponent<PaperWaving>().pushPaper(hitObject.transform);
-            }
-        }
+        applyForce();
     }
 
-    private void sendBall()
+    private void applyForce()
     {
-        GameObject ball = GameObject.Instantiate(Resources.Load<GameObject>("PaperBit"), startPoint, Quaternion.identity);
-        ball.AddComponent<WindController>();
-        ball.AddComponent<Rigidbody2D>();
-        ball.layer = LayerMask.NameToLayer("Default");
+        Vector2 linearVelocity = (endPoint - startPoint) * 5.0f;
 
-        Rigidbody2D rb = ball.GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0;
-        rb.linearVelocity = (endPoint - startPoint) * 5.0f;        
+        if (Mathf.Abs(linearVelocity.y) < 0.1f)
+            return;
+
+        float movementAmount = linearVelocity.magnitude * 0.05f;
+        float direction = Mathf.Sign(linearVelocity.y);
+
+        GameObject paper = GameObject.Find("Paper");
+        PaperMovementManager movementManager = paper.GetComponent<PaperMovementManager>();
+
+        movementManager.MoveBasedOnInput(movementAmount, direction);
+    }
+
+    public void changePlaneMode()
+    {
+        GameObject paper = GameObject.Find("Paper");
+        PaperMovementManager movementManager = paper.GetComponent<PaperMovementManager>();
+
+        if(movementManager is SheetPaperMovementManager)
+        {
+            paper.AddComponent<PlanePaperMovementManager>();
+            paper.transform.Find("PlanePaper").gameObject.SetActive(true);
+            paper.transform.Find("SheetPaper").gameObject.SetActive(false);
+            GameObject.Find("Canvas/GamePanel/PaperModeButton/PlaneOutline").SetActive(false);
+            GameObject.Find("Canvas/GamePanel/PaperModeButton/SheetOutline").SetActive(true);
+        }
+        else if(movementManager is PlanePaperMovementManager)
+        {
+            paper.AddComponent<SheetPaperMovementManager>();
+            paper.transform.Find("PlanePaper").gameObject.SetActive(false);
+            paper.transform.Find("SheetPaper").gameObject.SetActive(true);
+            GameObject.Find("Canvas/GamePanel/PaperModeButton/PlaneOutline").SetActive(true);
+            GameObject.Find("Canvas/GamePanel/PaperModeButton/SheetOutline").SetActive(false);
+        }
+
+        Destroy(movementManager);
     }
 }

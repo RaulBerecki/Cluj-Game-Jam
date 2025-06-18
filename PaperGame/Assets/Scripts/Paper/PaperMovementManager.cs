@@ -1,18 +1,38 @@
 using UnityEngine;
 
-public class PaperMovementManager : MonoBehaviour
+public abstract class PaperMovementManager : MonoBehaviour
 {
-    private Vector2 targetLocation = new Vector2(0f, 0f);
-    private float speed = 0.02f;
+    protected float targetY;
+    protected bool isMoving = false;
+    protected float currentSpeed = 0f;
 
-    void Update()
+    public float maxSpeed = 5f;
+    public float acceleration = 10f;
+    public float decelerationDistance = 0.5f;
+
+    protected virtual void Update()
     {
-        transform.position = Vector2.MoveTowards(gameObject.transform.position, targetLocation, speed);
+        if (isMoving)
+        {
+            float distance = Mathf.Abs(targetY - transform.position.y);
+            float direction = Mathf.Sign(targetY - transform.position.y);
+
+            float speedLimit = (distance < decelerationDistance)
+                ? Mathf.Lerp(0, maxSpeed, distance / decelerationDistance)
+                : maxSpeed;
+
+            currentSpeed = Mathf.MoveTowards(currentSpeed, speedLimit, acceleration * Time.deltaTime);
+            transform.Translate(Vector2.up * direction * currentSpeed * Time.deltaTime);
+
+            if (distance < 0.01f)
+            {
+                transform.position = new Vector3(transform.position.x, targetY, transform.position.z);
+                isMoving = false;
+                currentSpeed = 0f;
+            }
+        }
     }
 
-    public void setTargetLocationY(float y)
-    {
-        targetLocation.y = y;
-        Debug.Log($"[PaperMovementManager] Target Location set to: {targetLocation}");
-    }
+    // Abstract method to define how movement amount is scaled
+    public abstract void MoveBasedOnInput(float movementAmount, float direction);
 }
