@@ -11,7 +11,7 @@ public class PaperCreator : MonoBehaviour
 
         for(int iterator=0 ; iterator<paperLength ; iterator++)
         {
-            GameObject currentPaperBit = GameObject.Instantiate(paperBit, gameObject.transform);
+            GameObject currentPaperBit = GameObject.Instantiate(paperBit, gameObject.transform.Find("SheetPaper"));
 
             currentPaperBit.AddComponent<HingeJoint2D>();
             HingeJoint2D hj = currentPaperBit.GetComponent<HingeJoint2D>();
